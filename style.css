@@ -1,0 +1,130 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family:outfit,sans-serif;
+    font-size:18px;
+}
+.whole{
+    background-color:hsl(216, 50%, 16%);
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:360px;
+    border-radius:10px;
+}
+.eqi{
+    width: 20rem;
+    height:20rem;
+    border-radius:10px;
+    margin:20px;
+    position:relative;
+    z-index:10;
+    transition: z-index 0.5s ease-in;
+}
+.content{
+    margin-left:20px;
+    margin-right:20px;
+    text-align:left;
+}
+.main{
+    color:white;
+    margin:0;
+    margin-bottom:20px;
+    font-weight:600;
+}
+p{
+    color:hsl(215, 51%, 70%);
+    margin:0;
+    font-weight:300;
+    line-height:2;
+}
+.svgClass{
+    
+    margin-left:20px;
+    margin-right:20px;
+}
+.right{
+    text-align:right;
+    width:197px;
+    display:inline-block;
+}
+.eth{
+    display:inline-block;
+    color:hsl(178, 100%, 50%);
+    font-weight:600;
+    
+}
+.left{
+    margin:0;
+    display:inline-block;
+    
+}
+.day{
+    display:inline-block;
+}
+hr{
+    margin-left: 20px;
+    margin-right:20px;
+    border-top:1px solid hsl(215, 32%, 27%);
+    border-bottom:none;
+    border-right:none;
+    border-left:none;
+}
+.footer{
+    margin-top:20px;
+    margin-right:20px;
+    margin-left:20px;
+    height:70px;
+}
+.avatar{
+    width:40px;
+    height:40px;
+    margin-top:50px;
+    position:relative;
+    top:-50px;
+    display:inline-block;
+    border-radius:50%;
+    border:2px solid white;
+}
+.foo{
+    display:inline-block;
+    margin-top:-30px;
+    position:relative;
+    top:-65px;
+}
+.jules{
+    display:inline-block;
+    position:relative;
+    top:-65px;
+    color:white;
+    font-weight:400;
+    transition: color 0.5s ease-in;
+}
+.view{
+    width:40px;
+    margin-top:140px;
+    position:relative;
+    
+}
+.try{
+    
+    border-radius:10px;
+    text-align:center;
+    width:20rem;
+    height:20rem;
+    margin:20px;
+    position:relative;
+    bottom:365px;
+    z-index:9;
+    background-color:hsla(178, 100%, 50%, 0.5);
+}
+.mainImage{
+    height:360px;
+}
+.eqi:hover{
+    z-index:9; 
+    cursor:pointer;
+    
+}
+.jules:hover{
+    color:hsl(178, 100%, 50%);
+}
